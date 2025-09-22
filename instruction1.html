@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layered Instructions</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <body>
+    <div class="container">
+        <h1>Experimental Instructions</h1>
+        <p>Click "Next" to see the next step appear on top!</p>
+        <div id="content-wrapper">
+            <div id="instruction-container">
+                <img src="./Images/Step1.png" class="step-image visible" alt="Step 1: Draw a square for the base of the house.">
+                <img src="./Images/Step2.png" class="step-image" alt="Step 2: Add a triangle for the roof.">
+                <img src="./Images/Step3.png" class="step-image" alt="Step 3: Add a rectangle for the door.">
+                <img src="./Images/Step4.png" class="step-image" alt="Step 4: Add a square for the window.">
+            </div>
+            <div id="text-container">
+                <p class="step-text visible"><strong>Step 1:</strong> Fixate on the center point of the screen. 
+                    For the entire experiment you should be focused on the fixation point.</p>
+                <p class="step-text"><strong>Step 2:</strong> A series of dots will start flashing on your screen. 
+                    There are two categories in which these dots fall into: red and blue. </p>
+                <p class="step-text"><strong>Step 3:</strong>  Try and keep track of all the dots and their 
+                    average orientation.</p>
+                <p class="step-text"><strong>Step 4:</strong> After 24 trials we will ask you to distingush what is the mean orientation for each of
+                    the two colors. The order of the color you will be asked to locate for is in the top lefthand corner. 
+                    The cycle will repeat for 36 blocks.  </p>
+            </div>
+        </div>
+
+        <div class="controls">
+            <button id="next-btn">Next</button>
+        </div>
+    </main>
+    </div>
+    <script type="module" src="script.js"></script>
+</body>
+</html>
